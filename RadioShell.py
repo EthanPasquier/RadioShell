@@ -59,7 +59,7 @@ def programm():
     else:
         print("\033[91mBad Input")
 
-i = 1
-while(i == 1):
+i = '1'
+while(i == '1'):
     programm()
-    i = int(input("\033[0mPour revenir au programme\033[93m [1] : "))
+    i = input("\033[0mPour revenir au programme\033[93m [1] : ")
